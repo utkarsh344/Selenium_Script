@@ -32,7 +32,7 @@ public final class Main {
         driver.manage().window().setSize(new Dimension(1050, 880));
         driver.findElement(By.name("email")).click();
         driver.findElement(By.name("email")).sendKeys("gehlotchirag777@gmail.com");
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.name("password")).click();
         driver.findElement(By.name("password")).sendKeys("ciuynT");
         driver.findElement(By.cssSelector(".btn")).click();
@@ -40,32 +40,32 @@ public final class Main {
         //for dashboard
 //        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[2]/a")).click();
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[1]/a/p")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[3]/a/p")).click();
-        Thread.sleep(2000);
+        Thread.sleep(500);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[4]/a/p")).click();
-        Thread.sleep(2000);
+        Thread.sleep(500);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[5]/a/p")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"reports\"]/ul/li/a/span[2]")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/div[1]/div[2]/a/span")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"collapseExample\"]/ul/li[1]/a/span[2]")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"collapseExample\"]/ul/li[2]/a/span[2]")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-profile-cmp/div/div/div/div/div/div[3]/div/div/div/div/div[1]/ul/li[1]/a/i")).click();
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         //dashboard
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[1]/a/p")).click();
         Thread.sleep(2000);
         //elements inside dashboard
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[1]/a/i")).click();
         Thread.sleep(2000);
-//        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[2]/a")).click();
-//        Thread.sleep(2000);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[1]/a/i")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[2]/a")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[1]/a")).click();
         Thread.sleep(2000);
@@ -74,19 +74,107 @@ public final class Main {
         driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[4]/a/i")).click();
         Thread.sleep(2000);
         /* 1 element in primary */
-        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[1]/a/i")).click();
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//*[@id=\"responseServicesDataTablePrimary\"]/tbody/tr/td[9]/button/span")).click();
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[2]/a/p")).click();
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[2]/a/p")).click();
-        Thread.sleep(2000);
+//        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-dashboard/div/div/div[2]/div[2]/div/div/div/ul/li[1]/a/i")).click();
+//        Thread.sleep(2000);
+//        driver.findElement(By.xpath("//*[@id=\"responseServicesDataTablePrimary\"]/tbody/tr/td[9]/button/span")).click();
+//        Thread.sleep(2000);
+//        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[2]/a/p")).click();
+//        Thread.sleep(2000);
+//        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[2]/a/p")).click();
+//        Thread.sleep(2000);
 //        driver.findElement(By.xpath("//*[@id="mat-input-11"]")).sendKeys("958019");
 //        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[3]/a/p")).click();
 //        Thread.sleep(1000);
 //        driver.findElement(By.xpath("//*[@id='mat-input-11']")).sendKeys("958019");
 //        Thread.sleep(2000);
+        //for responder
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[2]/a/p")).click();
+        Thread.sleep(1000);
+        //customer response action
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[3]/a/p")).click();
+        Thread.sleep(1000);
+        //tower
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-custom-response-service-action/div/div/div/div/div/div[2]/div/div/div/ul/li[1]/a")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"mat-input-4\"]")).sendKeys("56789");
+        Thread.sleep(1000);
+//        driver.findElement(By.xpath("//*[@id=\"tower\"]/div/div[2]/button")).click();
+//        Thread.sleep(1000);
+        //from back to response action
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/ul/li[3]/a/p")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-custom-response-service-action/div/div/div/div/div/div[2]/div/div/div/ul/li[2]/a")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"user\"]/div/span[1]/div/input")).sendKeys("Mathew");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"user\"]/div/span[2]/div/input")).sendKeys("8393248899");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"mat-input-9\"]")).sendKeys("United States");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"user\"]/div/span[4]/div/input")).sendKeys("0");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"user\"]/div/span[5]/div/input")).sendKeys("1");
+        Thread.sleep(1000);
+        //send request
+        driver.findElement(By.xpath("//*[@id=\"user\"]/div/button")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/div[8]/div/div[3]/button[1]")).click();
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-custom-response-service-action/div/div/div/div/div/div[2]/div/div/div/ul/li[3]/a/i")).click();
+        //input
+        driver.findElement(By.xpath("//*[@id=\"driver\"]/div/span[1]/div/input")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//*[@id=\"driver\"]/div/span[2]/div/input")).click();
+        Thread.sleep(1000);
+
+        //location
+        driver.findElement(By.xpath("//*[@id=\"mat-input-10\"]")).sendKeys("Carrington");
+        driver.findElement(By.xpath("//*[@id=\"driver\"]/div/span[4]/div/input")).sendKeys("47.45408107630202");
+        driver.findElement((By.xpath("//*[@id=\"driver\"]/div/span[5]/div/input"))).sendKeys("-99.12963605886245");
+        Thread.sleep(1000);
+
+        driver.findElement(By.xpath("//*[@id=\"mat-input-11\"]")).sendKeys("Jamestown");
+        driver.findElement(By.xpath("//*[@id=\"driver\"]/div/span[7]/div/input")).sendKeys("47.949513173616054");
+        driver.findElement(By.xpath("//*[@id=\"driver\"]/div/span[8]/div/input")).sendKeys("-98.90685376332662");
+
+        //driver send request
+        driver.findElement(By.xpath("//*[@id=\"driver\"]/div/button")).click();
+        driver.findElement(By.xpath("/html/body/div[8]/div/div[3]/button[1]")).click();
+        Thread.sleep(1000);
+
+        //historical response actions left space under before report
+        //activity report
+        driver.findElement(By.xpath("//*[@id=\"reports\"]/ul/li/a/span[2]")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/provider-activity-report-component/div/div/div/div/div[1]/div[2]/div/div[4]/button")).click();
+        Thread.sleep(1000);
+
+        //internal testing chirag
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[1]/app-provider-sidebar-cmp/div[2]/div[1]/div[2]/a")).click();
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-main-layout/div/div[2]/app-provider-profile-cmp/div/div/div/div/div/div[3]/div/div/div/div/div[1]/ul/li[2]/a")).click();
+        Thread.sleep(1000);
+        //update profile
+        driver.findElement(By.xpath("//*[@id=\"link10\"]/form/button")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("/html/body/div[12]/div/div[3]/button[1]")).click();
+
+        //logout
+        driver.findElement(By.xpath("//*[@id=\"collapseExample\"]/ul/li[3]/a")).click();
+
+        //login after logout
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-login-layout/nav/div/div[2]/ul/li[2]/a")).click();
+        Thread.sleep(1000);
+
+        //forgot password
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-login-layout/nav/div/div[2]/ul/li[1]/a")).click();
+        Thread.sleep(1500);
+
+        //reset my password
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-login-layout/app-provider-forgot-password-cmp/div/div/div/div/div/div/div/div/div[2]/form/div[1]/div/input")).sendKeys("gehlotchirag777@gmail.com");
+        Thread.sleep(500);
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-login-layout/app-provider-forgot-password-cmp/div/div/div/div/div/div/div/div/div[2]/form/div[3]/a")).click();
+
+        driver.findElement(By.xpath("/html/body/app-my-app/app-provider-login-layout/nav/div/div[2]/ul/li[2]/a")).click();
+        Thread.sleep(1000);
 
     }
 }
